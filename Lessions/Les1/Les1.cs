@@ -1,3 +1,5 @@
+using System;
+
 namespace Les1 {
   class Les1 : Lession {
     public int CountAbroad(Vacation[] vacations) {

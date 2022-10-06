@@ -1,3 +1,5 @@
+using System;
+
 namespace Les5 {
   class Circle {
     protected Point center;

@@ -1,3 +1,5 @@
+using System;
+
 namespace Les8 {
   class Les8 : Lession {
     public double GetSavedPrice(Product[] arr) {

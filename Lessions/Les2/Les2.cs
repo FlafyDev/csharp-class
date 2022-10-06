@@ -1,3 +1,5 @@
+using System;
+
 namespace Les2 {
   class Les2 : Lession {
     private int Exact(string[] arr, int num) {

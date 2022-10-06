@@ -1,3 +1,5 @@
+using System;
+
 namespace Les4 {
   class Artist {
     protected int numOfFan;

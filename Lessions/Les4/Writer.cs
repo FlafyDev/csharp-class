@@ -1,3 +1,5 @@
+using System;
+
 namespace Les4 {
   class Writer : Artist {
     public Writer(int numOfFans) : base(numOfFans) { }

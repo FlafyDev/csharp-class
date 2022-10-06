@@ -1,3 +1,5 @@
+using System;
+
 namespace Les3 {
   class Les3 : Lession {
     /* public static bool IsPerfect(int[] arr) { */

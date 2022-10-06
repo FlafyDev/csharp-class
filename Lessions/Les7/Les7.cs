@@ -1,3 +1,5 @@
+using System;
+
 namespace Les7 {
   class Les7 : Lession {
     public static bool IsAccepted(Employee[] arr) {

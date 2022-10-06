@@ -1,3 +1,5 @@
+using System;
+
 namespace Les4 {
   class Les4 : Lession {
     public override void Main() {
