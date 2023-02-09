@@ -1,8 +1,5 @@
 {
   inputs = {
-    nixpkgs = {
-      url = "github:NixOS/nixpkgs";
-    };
     devshell = {
       url = "github:numtide/devshell";
       inputs.nixpkgs.follows = "nixpkgs";

@@ -134,7 +134,8 @@ namespace Les18
 
         public override void Main()
         {
-            Node<int> n10 = new Node<int>(103);
+            Node<int> n11 = new Node<int>(200);
+            Node<int> n10 = new Node<int>(103, n11);
             Node<int> n9 = new Node<int>(102, n10);
             Node<int> n8 = new Node<int>(101, n9);
             Node<int> n7 = new Node<int>(100, n8);
@@ -157,7 +158,7 @@ namespace Les18
             // Print the resulted Node<RangeNode> to check.
             while (p != null)
             {
-                Console.WriteLine(p.GetValue().GetFrom() + " " + p.GetValue().GetTo());
+                Console.WriteLine("<" + p.GetValue().GetFrom() + " " + p.GetValue().GetTo() + ">");
                 p = p.GetNext();
             }
 

@@ -1,3 +1,3 @@
-﻿Lession les18 = new Les18.Les18();
-les18.Main();
+﻿Lession les22 = new Les22.Les22();
+les22.Main();
 
